@@ -244,8 +244,8 @@
             processing: true,
             language: {
                 paginate: {
-                    previous: '&nbsp;',
-                    next: '&nbsp;'
+                    previous: '<i class="fa-solid fa-angle-left"></i>',
+                    next: '<i class="fa-solid fa-angle-right"></i>'
                 }
             },
             columns: [{

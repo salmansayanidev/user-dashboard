@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/dataTables.bootstrap5.min.css">
     <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/dataTables.bootstrap5.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
@@ -27,7 +28,7 @@
             <nav class="side-bar-navigation">
                 <ul class="nav-area">
                     <li class="side-bar-link">
-                        <a href="index.php" class="nav-links">
+                        <a href="index.php" class="nav-links    ">
                             <div class="side-bar-icon-area">
                                 <i class="fa-solid fa-chart-simple"></i>
                             </div>

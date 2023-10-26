@@ -24,27 +24,27 @@ html {
 
 @font-face {
   font-family: "FuturaStd-Heavy";
-  src: url("../../../user-dashboard/assets/futurastdheavy/FuturaStd-Heavy.otf");
+  src: url("../../assets/futurastdheavy/FuturaStd-Heavy.otf");
 }
 @font-face {
   font-family: "FuturaStd-Light";
-  src: url("../../../user-dashboard/assets/futurastdheavy/FuturaStd-Light.otf");
+  src: url("../../assets/futurastdheavy/FuturaStd-Light.otf");
 }
 @font-face {
   font-family: "FUTURTHN";
-  src: url("../../../user-dashboard/assets/futurastdheavy/FUTURTHN.ttf");
+  src: url("../../assets/futurastdheavy/FUTURTHN.ttf");
 }
 @font-face {
   font-family: "FuturaStd-Heavy";
-  src: url("../../../user-dashboard/assets/futurastdheavy/FuturaStd-Heavy.otf");
+  src: url("../../assets/futurastdheavy/FuturaStd-Heavy.otf");
 }
 @font-face {
   font-family: "FuturaStd-Book";
-  src: url("../../../user-dashboard/assets/futurastdheavy/FuturaStd-Book.otf");
+  src: url("../../assets/futurastdheavy/FuturaStd-Book.otf");
 }
 @font-face {
   font-family: "FuturaStd-Bold";
-  src: url("../../../user-dashboard/assets/futurastdheavy/FuturaStd-Bold.otf");
+  src: url("../../assets/futurastdheavy/FuturaStd-Bold.otf");
 }
 
 tbody tr td {
@@ -57,6 +57,9 @@ div.dataTables_wrapper div.dataTables_info {
   .dataTables_wrapper.dt-bootstrap5.no-footer
   .row:last-child {
   align-items: center;
+}
+a.page-link i {
+  font-size: 1.7rem;
 }
 /* sidebar start */
 
