@@ -94,9 +94,11 @@
                                         <div class="col-lg-6 col-xl-5 col-12">
                                             <form class="profile-update-form">
                                                 <div class="profile-img-area">
-                                                    <img class="img-fluid" src="./assets/images/update-profile.png" alt="">
+                                                    <img id="img-preview" class="img-fluid" src="./assets/images/update-profile.png" alt="">
                                                 </div>
-                                                <button class="profile-update-btn">Update Picture</button>
+                                                <input id="upload-profile" class="d-none" type="file" accept="image/*" onchange="readURL(this)" />
+                                                <label for="upload-profile" class="profile-update-btn">Update Picture</label>
+                                                <!-- <button class="profile-update-btn">Update Picture</button> -->
                                                 <div class="update-password-area">
                                                     <h2 class="update-pas-title">Update Password</h2>
                                                     <div class="update-pasword-fields">
@@ -135,3 +137,22 @@
 <?php
     include 'footer.php';  
 ?> 
+
+<script>
+let noimage =
+    "./assets/images/update-profile.png";
+
+function readURL(input) {
+  console.log(input.files);
+  if (input.files && input.files[0]) {
+    var reader = new FileReader();
+    reader.onload = function (e) {
+      $("#img-preview").attr("src", e.target.result);
+    };
+
+    reader.readAsDataURL(input.files[0]);
+  } else {
+    $("#img-preview").attr("src", noimage);
+  }
+}
+</script>
